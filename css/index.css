@@ -31,9 +31,8 @@
 .pc-menu a {
     text-decoration: none;
     color: white;
+    display: block;
 }
 li a {
     display: block;
-    height: 100%;
-    width: 100%;
 }
