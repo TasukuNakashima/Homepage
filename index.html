@@ -16,9 +16,9 @@
             <ul>
                 <svg class="logo" viewBox="0 0 1000 714"><path d="M0,0 h1000 v714 h-90 v-604 h-820 v603 h-90z M0,300 h1000 v110 h-1000z M305,0 h145 l605,714 h-145z M550,0 h145 l-605,714 h-145" /></svg>
                 <a href=""><li>トップ</li></a>
-                <li><a href="">お問い合わせ</a></li>
-                <li><a href="">ログイン</a></li>
-                <li><a href="">マイページ<!-- 今後アイコンにする可能性あり --></a></li>
+                <a href=""><li>お問い合わせ</li></a>
+                <a href=""><li>ログイン</li></a>
+                <a href=""><li>マイページ<!-- 今後アイコンにする可能性あり --></li></a>
             </ul>
         </div>
     </header>
@@ -32,8 +32,6 @@ for(let i=0;i<lists.length;i++){
         let href = this.querySelector('a').getAttribute('href');
         // 現在のタブで開く
         location.href = href;
-        // 新しいタブで開く
-        // window.open(href);
-    });
+    })};
 </script>
 </html>
