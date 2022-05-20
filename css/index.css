@@ -31,7 +31,7 @@
 .pc-menu a {
     text-decoration: none;
     color: black;
-}
-.pc-menu a:hover {
-
+    display: block;
+    height: 100%;
+    width: 100%;
 }
