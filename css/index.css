@@ -3,7 +3,7 @@
     padding: 0;
 }
 .top-logo img {
-    width: 80%;
+    width: 50%;
 }
 .top-logo {
     text-align: center;
@@ -20,6 +20,8 @@
 .pc-menu {
     display: flex;
     background-color: #800000;
+    height: 60px;
+    line-height: 60px;
 }
 .pc-menu ul {
     display: flex;
