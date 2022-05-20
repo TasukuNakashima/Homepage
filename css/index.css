@@ -14,9 +14,7 @@
     margin-top: 5px;
 }
 .pc-menu li {
-    text-decoration: none;
     list-style: none;
-    color: black;
     margin: 0 auto;
 }
 .pc-menu {
@@ -27,4 +25,8 @@
     display: flex;
     text-align: center;
     width: 100%;
+}
+.pc-menu a {
+    text-decoration: none;
+    color: black;
 }
