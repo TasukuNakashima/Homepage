@@ -3,7 +3,7 @@
     padding: 0;
 }
 .top-logo img {
-    width: 50%;
+    width: 40%;
 }
 .top-logo {
     text-align: center;
@@ -31,4 +31,7 @@
 .pc-menu a {
     text-decoration: none;
     color: black;
+}
+.pc-menu a:hover {
+
 }
