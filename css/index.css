@@ -6,7 +6,9 @@
     background-color: #800000;
 }
 .pc-menu svg {
-    width: 10%;
+    width: 5%;
+    margin-left: 10px;
+    margin-top: 5px;
 }
 .pc-menu li {
     text-decoration: none;
