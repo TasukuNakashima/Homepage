@@ -3,7 +3,7 @@
     padding: 0;
 }
 .top-logo img {
-    width: 40%;
+    width: 200px;
 }
 .top-logo {
     text-align: center;
@@ -15,7 +15,7 @@
 }
 .pc-menu li {
     list-style: none;
-    margin: 0 auto;
+    width : calc(100% / 4) ;
 }
 .pc-menu {
     display: flex;
