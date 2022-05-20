@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
 }
-.pc-menu {
+header {
     background-color: #800000;
+}
+.top-logo img {
+    width: 80%;
 }
 .pc-menu svg {
     width: 5%;
