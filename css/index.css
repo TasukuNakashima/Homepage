@@ -17,6 +17,7 @@
     text-decoration: none;
     list-style: none;
     color: black;
+    margin: 0 auto;
 }
 .pc-menu {
     display: flex;
@@ -26,5 +27,4 @@
     display: flex;
     text-align: center;
     width: 100%;
-    margin: 0 auto;
 }
