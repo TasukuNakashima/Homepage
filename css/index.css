@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
 }
-header {
+.pc-menu {
     background-color: #800000;
 }
 .top-logo img {
     width: 80%;
+}
+.top-logo {
+    text-align: center;
 }
 .pc-menu svg {
     width: 5%;
@@ -17,4 +20,12 @@ header {
     text-decoration: none;
     list-style: none;
     color: black;
+}
+.pc-menu {
+    display: flex;
+}
+.pc-menu ul {
+    display: flex;
+    text-align: center;
+    width: 100%;
 }
