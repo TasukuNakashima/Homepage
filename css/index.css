@@ -2,10 +2,14 @@
     margin: 0;
     padding: 0;
 }
+.pc-menu {
+    background-color: #800000;
+}
 .pc-menu svg {
     width: 5%;
 }
 .pc-menu li {
     text-decoration: none;
     list-style: none;
+    color: black;
 }
