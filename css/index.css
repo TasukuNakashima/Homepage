@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
 }
-.pc-menu {
-    background-color: #800000;
-}
 .top-logo img {
     width: 80%;
 }
@@ -23,9 +20,11 @@
 }
 .pc-menu {
     display: flex;
+    background-color: #800000;
 }
 .pc-menu ul {
     display: flex;
     text-align: center;
     width: 100%;
+    margin: 0 auto;
 }
