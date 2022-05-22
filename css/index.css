@@ -2,11 +2,30 @@
     margin: 0;
     padding: 0;
 }
+html {
+    background-color: #F2F2F2;
+}
 .top-logo img {
     width: 40%;
 }
+.box-1 {
+    background-color:#F2F2F2;
+    -webkit-transform: skew(0deg, -5deg);
+}
+.box-2 {
+    background-color:#1B2249;
+    -webkit-transform: skew(0deg, -5deg);
+}
+.box-3 {
+    background-color:#F2F2F2;
+    -webkit-transform: skew(0deg, -5deg);
+}
 .top-logo {
     text-align: center;
+}
+.back-color {
+    -webkit-transform: skew(0deg, 5deg);
+    background-color: #F2F2F2;
 }
 .pc-menu svg {
     width: 60px;
@@ -37,4 +56,27 @@
 .pc-menu a:hover {
     background-color:rgba(255,255,255,0.4);
     color: black;
+}
+.aboutus h1 {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    border-bottom: 1px white solid;
+    width: 500px;
+}
+.about-job {
+    -webkit-transform: skew(0deg, 5deg);
+    height: 400px;
+}
+.aboutus {
+    -webkit-transform: skew(0deg, 5deg);
+    color: white;
+    height: 500px;
+    z-index: -10;
+    margin-top: 42px;
+}
+.aboutus-text {
+    width: 50%;
+    margin: 40px 50px;
+    line-height: 50px;
 }
