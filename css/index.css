@@ -8,7 +8,7 @@ html {
 .top-logo img {
     width: 40%;
 }
-.box-1 {
+/*👉.box-1 {
     background-color:#F2F2F2;
     -webkit-transform: skew(0deg, -5deg);
 }
@@ -19,12 +19,12 @@ html {
 .box-3 {
     background-color:#F2F2F2;
     -webkit-transform: skew(0deg, -5deg);
-}
+}👈*/
 .top-logo {
     text-align: center;
 }
 .back-color {
-    -webkit-transform: skew(0deg, 5deg);
+    /* -webkit-transform: skew(0deg, 5deg); */
     background-color: #F2F2F2;
 }
 .pc-menu svg {
@@ -65,18 +65,65 @@ html {
     width: 500px;
 }
 .about-job {
-    -webkit-transform: skew(0deg, 5deg);
+    /* -webkit-transform: skew(0deg, 5deg); */
     height: 400px;
 }
-.aboutus {
-    -webkit-transform: skew(0deg, 5deg);
-    color: white;
-    height: 500px;
-    z-index: -10;
-    margin-top: 42px;
-}
 .aboutus-text {
-    width: 50%;
+    width: 100%;
     margin: 40px 50px;
     line-height: 50px;
+}
+.aboutus {
+    position: relative;
+    overflow: hidden;
+    margin: 10% 0;
+    padding: 80px 0;
+}
+
+.aboutus:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 80%;
+    margin: 3% -10% 0;
+    background: #011931;
+    -webkit-transform-origin: left center;
+    -ms-transform-origin: left center;
+    transform-origin: left center;
+    -webkit-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    z-index: -1;
+}
+
+.aboutus_inner {
+    box-sizing: boder-box;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 100px 10px 120px;
+    color: #fff;
+}
+.aboutus_inner h1 {
+    
+}
+.aboutus:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 80%;
+    margin: 3% -10% 0;
+    background: #df6209;
+    -webkit-transform-origin: right center;
+    -ms-transform-origin: right center;
+    transform-origin: right center;
+    -webkit-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    z-index: -2;
 }
