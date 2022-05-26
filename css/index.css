@@ -79,8 +79,7 @@ html {
     height: 400px;
 }
 .aboutus-text {
-    width: 100%;
-    margin: 40px 50px;
+    margin: 40px -92.5px;
     line-height: 50px;
 }
 .aboutus {
@@ -117,6 +116,10 @@ html {
     margin: 0 auto;
     padding: 100px 10px 120px;
     color: #fff;
+}
+.explain{
+    width: 60%;
+    position: absolute;
 }
 .aboutus:after {
     content: '';
