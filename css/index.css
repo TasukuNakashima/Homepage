@@ -4,6 +4,8 @@
 }
 html {
     background-color: #F2F2F2;
+    scroll-behavior: smooth;
+
 }
 .top-logo img {
     width: 40%;
@@ -40,7 +42,7 @@ html {
 .pc-menu svg {
     width: 60px;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-right: 10px;
 }
 .pc-menu li {
@@ -70,6 +72,9 @@ html {
 .pc-menu a:hover {
     background-color:rgba(255,255,255,0.4);
     color: black;
+}
+#svg_color a:hover {
+    background-color: transparent;
 }
 .aboutus h1 {
     margin: 0 auto;
@@ -142,4 +147,7 @@ html {
 }
 #pc-menu .header-color {
     background-color: #800000;
+}
+.link:visited {
+    color: #000000;
 }
