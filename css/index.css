@@ -49,9 +49,14 @@ html {
 }
 .pc-menu {
     display: flex;
-    background-color: #800000;
+    /* background-color: #800000; */
     height: 60px;
     line-height: 60px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
 .pc-menu ul {
     display: flex;
@@ -60,7 +65,6 @@ html {
 }
 .pc-menu a {
     text-decoration: none;
-    color: white;
     display: block;
 }
 .pc-menu a:hover {
@@ -79,15 +83,17 @@ html {
     height: 400px;
 }
 .aboutus-text {
-    margin: 40px -92.5px;
+    width: 100%;
+    margin: 0 auto;
     line-height: 50px;
+    padding-top: 50px;
 }
 .aboutus {
     position: relative;
     overflow: hidden;
-    margin: 10% 0;
+    /* margin: 10% 0; */
     padding: 80px 0;
-    margin-top: 450px;
+    /* margin-top: 450px; */
 }
 
 .aboutus:before {
@@ -111,15 +117,11 @@ html {
 .aboutus_inner {
     box-sizing: boder-box;
     width: 100%;
-    max-width: 640px;
+    max-width: 65%;
     height: 100%;
     margin: 0 auto;
     padding: 100px 10px 120px;
     color: #fff;
-}
-.explain{
-    width: 60%;
-    position: absolute;
 }
 .aboutus:after {
     content: '';
@@ -129,7 +131,7 @@ html {
     width: 120%;
     height: 80%;
     margin: 3% -10% 0;
-    background: #1d9cc6;
+    background: #DDC4DD;
     -webkit-transform-origin: right center;
     -ms-transform-origin: right center;
     transform-origin: right center;
@@ -137,4 +139,7 @@ html {
     -ms-transform: rotate(-3deg);
     transform: rotate(-3deg);
     z-index: -2;
+}
+#pc-menu .header-color {
+    background-color: #800000;
 }
