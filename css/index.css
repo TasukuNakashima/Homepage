@@ -83,10 +83,7 @@ html {
     border-bottom: 1px white solid;
     width: 500px;
 }
-.about-job {
-    /* -webkit-transform: skew(0deg, 5deg); */
-    height: 400px;
-}
+
 .aboutus-text {
     width: 100%;
     margin: 0 auto;
@@ -150,4 +147,59 @@ html {
 }
 .link:visited {
     color: #000000;
+}
+.about-job {
+    height: 400px;
+}
+.about-job h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    border-bottom: 1px black solid;
+    width: 500px;
+}
+.job-in {
+    display: flex;
+    justify-content: center;
+}
+.job-1,.job-2,.job-3,.job-4 {
+    text-align: center;
+    margin: 40px 30px;
+    width: 200px;
+}
+.job-img1 {
+    background-image: url("../img/community.png");
+    width: 100px;
+    height: 100px;
+    background-size: 250px;
+    border-radius: 50%;
+    background-position: center top;
+    display: inline-block;
+}
+.job-img2 {
+    background-image: url("../img/higacoin.png");
+    width: 100px;
+    height: 100px;
+    background-size: 250px;
+    border-radius: 50%;
+    background-position: left top;
+    display: inline-block;
+}
+.job-img3 {
+    background-image: url("../img/keihatu.png");
+    width: 100px;
+    height: 100px;
+    background-size: 250px;
+    border-radius: 50%;
+    background-position: center top;
+    display: inline-block;
+}
+.job-img4 {
+    background-image: url("../img/game.png");
+    width: 100px;
+    height: 100px;
+    background-size: 500px;
+    border-radius: 50%;
+    background-position: center top;
+    display: inline-block;
 }
