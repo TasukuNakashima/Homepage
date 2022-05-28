@@ -69,3 +69,28 @@ window.addEventListener("scroll", function() {
     }
 
 });
+const o_s_i_1 = document.querySelector(".o_s_i_1")
+const o_main = document.querySelector(".o-main")
+const o_s_i_2 = document.querySelector(".o_s_i_2")
+const o_inbox = document.querySelector(".o-inbox")
+const o_main_text = document.querySelector(".o-main-text")
+    o_s_i_1.addEventListener("mouseover", () => {
+        o_main.style.backgroundImage = "url('./img/cfns.png')";
+        o_main_text.innerHTML = "<h3>共同プロジェクト</h3>別グループが行っていたシスコム様とのプロジェクトを引き継ぎ、<br>共同でインターネット被害啓発運動やコミュニティーサイトを制作・運営しています。";
+        o_main_text.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+    }, false);
+    o_inbox.addEventListener("mouseleave", () => {
+        o_main.style.backgroundImage = "url('./img/logo-top.png')";
+        o_main_text.innerHTML = ""
+        o_main_text.style.backgroundColor = 'transparent'
+    }, false);
+    o_s_i_2.addEventListener("mouseover", () => {
+        o_main.style.backgroundImage = "url('./img/community.png')";
+        o_main_text.innerHTML = "<h3>ホームページ制作</h3>当サイトやコミュニティーサイトなど、全てKTT Projects内で一から制作を行いました。<br>（Word Press等は一切使用していません）";
+        o_main_text.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
+    }, false);
+    o_inbox.addEventListener("mouseleave", () => {
+        o_main.style.backgroundImage = "url('./img/logo-top.png')";
+        o_main_text.innerHTML = ""
+        o_main_text.style.backgroundColor = 'transparent'
+    }, false);
