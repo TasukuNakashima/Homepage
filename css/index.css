@@ -177,7 +177,8 @@ html {
     display: inline-block;
 }
 .job-img2 {
-    background-image: url("../img/higacoin.png");
+    background-image: url("../img/higacoin.png"); 
+    /* 変更したい */
     width: 100px;
     height: 100px;
     background-size: 250px;
@@ -196,6 +197,7 @@ html {
 }
 .job-img4 {
     background-image: url("../img/game.png");
+    /* 変更したい */
     width: 100px;
     height: 100px;
     background-size: 500px;
