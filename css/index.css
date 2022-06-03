@@ -196,7 +196,7 @@ html {
     display: inline-block;
 }
 .job-img4 {
-    background-image: url("../img/game.png");
+    background-image: url("../img/pong_logo.png");
     /* 変更したい */
     width: 100px;
     height: 100px;
