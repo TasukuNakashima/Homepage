@@ -180,7 +180,7 @@ html {
     background-image: url("../img/higacoin.png"); 
     /* 変更したい */
     width: 100px;
-    height: 100px;+
+    height: 100px;
     background-size: 250px;
     border-radius: 50%;
     background-position: left top;
