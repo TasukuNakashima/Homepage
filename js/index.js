@@ -94,3 +94,14 @@ const o_main_text = document.querySelector(".o-main-text")
         o_main_text.innerHTML = ""
         o_main_text.style.backgroundColor = 'transparent'
     }, false);
+
+    var admin_btn = document.querySelector(".admin_popup")
+    admin_btn.addEventListener('click', function() {
+        var result = confirm("管理者用ページにアクセスします\n不正アクセスは法律によって禁止され、IPアドレスは記録されます");
+        if( result ) {
+            window.open("../member/admin.html");
+        }
+        else {
+            console.log('キャンセル');
+        }
+    })

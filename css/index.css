@@ -345,3 +345,14 @@ footer a {
     border-bottom: 1px black solid;
     width: 260px;
 }
+.admin_popup {
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    border-bottom: 1px black solid;
+    cursor: pointer;
+}
+.admin_popup:hover {
+    color: #800000;
+    border-bottom: 1px #800000 solid;
+}
