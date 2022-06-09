@@ -158,15 +158,109 @@ html {
     border-bottom: 1px black solid;
     width: 500px;
 }
+.box-3 {
+    height: 400px;
+}
 .job-in {
     display: flex;
     justify-content: center;
+    margin-top: 30px;
 }
 .job-1,.job-2,.job-3,.job-4 {
     text-align: center;
-    margin: 40px 30px;
-    width: 200px;
+    width: 150px;
 }
+.job-box-in {
+    width: 170px;
+    height: 230px;
+    margin-top: 50px;
+}
+.job-1:hover .job-img1 {
+    background-size: 280px;
+    transition: background-size 1s ease 0s;
+}
+.job-2:hover .job-img2 {
+    background-size: 280px;
+    transition: background-size 1s ease 0s;
+}
+.job-3:hover .job-img3 {
+    background-size: 280px;
+    transition: background-size 1s ease 0s;
+}
+.job-4:hover .job-img4 {
+    background-size: 130px;
+    transition: background-size 1s ease 0s;
+    background-position: center center;
+}
+/* job hover border */
+.job-in a {
+    display: inline-block;
+    color: #004878;
+    text-decoration: none;
+}
+.job-a {
+    border: 1px solid #eee;
+    padding: 10px 40px;
+    position: relative;
+    margin: 0 30px;
+}
+.job-a::after,
+.job-a::before,
+.job-box-in::after,
+.job-box-in::before {
+    background-color: #800000;
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 10;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.job-a::after {
+    width: 0px;
+    height: 1px;
+    top: -1px;
+    left: -1px;
+    transition-delay: .0s;
+}
+
+.job-a::before {
+    width: 0px;
+    height: 1px;
+    right: -1px;
+    bottom: -1px;
+    transition-delay: .6s;
+}
+
+.job-box-in::after {
+    width: 1px;
+    height: 0px;
+    left: -1px;
+    bottom: -1px;
+    transition-delay: .9s;
+}
+
+.job-box-in::before {
+    width: 1px;
+    height: 0px;
+    top: -1px;
+    right: -1px;
+    transition-delay: .3s;
+}
+
+.job-a:hover::after,
+.job-a:hover::before {
+    width: 100%;
+    width: calc(100% + 1px);
+}
+.job-a:hover .job-box-in::after,
+.job-a:hover .job-box-in::before {
+    height: 100%;
+    height: calc(100% + 1px);
+}
+/* job hover border finish */
+
 .job-img1 {
     background-image: url("../img/community.png");
     width: 100px;
@@ -177,11 +271,10 @@ html {
     display: inline-block;
 }
 .job-img2 {
-    background-image: url("../img/higacoin.png"); 
-    /* 変更したい */
+    background-image: url("../img/higacoin.png");
     width: 100px;
     height: 100px;
-    background-size: 110px;
+    background-size: 250px;
     border-radius: 50%;
     background-position: left top;
     display: inline-block;
