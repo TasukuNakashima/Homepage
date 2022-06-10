@@ -180,7 +180,7 @@ html {
     transition: background-size 1s ease 0s;
 }
 .job-2:hover .job-img2 {
-    background-size: 280px;
+    background-size: 140px;
     transition: background-size 1s ease 0s;
 }
 .job-3:hover .job-img3 {
@@ -274,9 +274,9 @@ html {
     background-image: url("../img/higacoin.png");
     width: 100px;
     height: 100px;
-    background-size: 250px;
+    background-size: 110px;
     border-radius: 50%;
-    background-position: left top;
+    background-position: center top;
     display: inline-block;
 }
 .job-img3 {
