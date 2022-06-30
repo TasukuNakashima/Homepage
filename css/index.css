@@ -344,6 +344,7 @@ html {
 .o-select a {
     width: 100%;
     margin: 0 auto;
+    text-decoration: none;
 }
 .o-main img {
     width: 50%;
@@ -368,9 +369,19 @@ html {
     display: block;
     width: 100%;
     background-color: #000000;
+    /* background-repeat: no-repeat; */
 }
-.o-select a {
-    text-decoration: none;
+.o_s_i_1{
+    background-image: url("../img/cfns.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.o_s_i_2{
+    background-image: url("../img/community.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 .o-main-text {
     text-align: left;
