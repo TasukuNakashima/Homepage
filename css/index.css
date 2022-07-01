@@ -366,8 +366,8 @@ html {
     text-align: center;
     line-height: 30px;
     margin-top: 230px;
-    /* display: block; */
-    width: 334.5px;
+    width: 100%;
+    border: 1px black solid;
     background-color: #000000;
     background-repeat: no-repeat;
 }
