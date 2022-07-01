@@ -351,7 +351,7 @@ html {
 }
 .o-s-inbox {
     display: flex;
-    height: 250px;
+    height: 200px;
     width: calc(140% / 2);
     flex-direction: column;
     justify-content: center;
@@ -360,27 +360,33 @@ html {
     margin: 5px;
     margin: 0 auto;
 }
-.o-s-inbox p { 
+.o-s-inbox p {
     color: #fff;
     /* font-size: ; */
     text-align: center;
     line-height: 30px;
-    margin-top: 220px;
-    display: block;
-    width: 100%;
+    margin-top: 230px;
+    /* display: block; */
+    width: 334.5px;
     background-color: #000000;
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 }
-.o_s_i_1{
+.o_s_i_1 {
     background-image: url("../img/cfns.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.o_s_i_2{
+.o_s_i_2 {
     background-image: url("../img/community.png");
     background-position: center;
-    background-size: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.o_s_i_3 {
+    background-image: url("../img/community.png");
+    background-position: center;
+    background-size:cover;
     background-repeat: no-repeat;
 }
 .o-main-text {
