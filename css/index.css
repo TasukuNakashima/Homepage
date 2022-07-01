@@ -384,9 +384,9 @@ html {
     background-repeat: no-repeat;
 }
 .o_s_i_3 {
-    background-image: url("../img/community.png");
+    background-image: url("../img/lifeistech-logo.png");
     background-position: center;
-    background-size:cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 .o-main-text {
