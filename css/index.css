@@ -68,6 +68,7 @@ html {
 .pc-menu a {
     text-decoration: none;
     display: block;
+    color: #000000;
 }
 .pc-menu a:hover {
     background-color:rgba(255,255,255,0.4);
@@ -490,4 +491,25 @@ footer a {
 .admin_popup:hover {
     color: #800000;
     border-bottom: 1px #800000 solid;
+}
+.origin-popup {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.popup {
+    position: fixed;
+    height: 150px;
+    width: 375px;
+    top: calc(50% - 150px/2);
+    left: calc(50% - 375px/2);
+    text-align: center;
+    background-color: white;
+    padding: 40px 0;
+    border-radius: 20px;
+    display: none;
+}
+.pc-menu ul li p {
+    display: block;
+    width: 100%;
 }
